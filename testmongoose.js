@@ -15,3 +15,5 @@ const mydata = mongoose.model('cats', schema);
 mydata.find({name:"yingtao"},(err,data)=>{
     console.log(data[0]._doc)
 })
+
+
